@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Puzzle game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+
+<body>
+  <div class="game">
+    <div class="row">
+      <div class="col"></div>
+
+      <div class="col">
+        <center>
+          <!-- <h1 class="" style="color:rgb(4, 122, 53);">Taquin</h1> -->
+          <img src="logoS.png" alt="" width="240"><br><br>
+          <!-- <hr> -->
+          <strong>
+            <span id="move">Move: 100 </span> <span style="opacity: 0">eee</span> |
+            <span style="opacity: 0">eee</span><span id="time">Time: 100</span>
+          </strong>
+          <hr>
+          <h3 class="message">
+            You WIN !</h3>
+        </center>
+      </div>
+      <div class="col"></div>
+    </div>
+
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <div class="form-group">
+          <label for="formControlRange">Difficulty</label>
+          <input type="range" class="form-control-range" id="formControlRange" min="5" max="1000">
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+
+
+        <div class="grid">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>8</button>
+          <button></button>
+          <button>4</button>
+          <button>7</button>
+          <button>6</button>
+          <button>5</button>
+        </div>
+
+        <div class="footer">
+          <!-- <button>Play</button>
+          <div id="solve">
+          </div> -->
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"><button>Play</button></div>
+            <div class="col">
+              <div id="solve">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div class="col">
+        <center>
+          <font face="sequel sans">
+            <div id="solution" style="max-height: 200px; overflow-y: auto;">
+            </div>
+          </font>
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
